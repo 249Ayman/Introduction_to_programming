@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
+bool add(int a, int b, int c);
 int main(void){
-    printf("what's your name\n");
-    char a[50];
-    fgets(a,50,stdin);
-
-    int n= strlen(a);
-    printf("%i \n",n);
+    add(10,20,5);
 };
+
+bool add(int a, int b, int c){
+    if(a,b,c >0 && a,b > c){
+        return (true);
+    }
+    else {
+        return (false);
+    }
+}
