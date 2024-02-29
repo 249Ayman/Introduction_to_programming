@@ -1,17 +1,21 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdbool.h>
 
-bool add(int a, int b, int c);
-int main(void){
-    add(10,20,5);
-};
+int main() {
+    int marks;
+    printf("Enter student marks: ");
+    scanf("%d", &marks);
 
-bool add(int a, int b, int c){
-    if(a,b,c >0 && a,b > c){
-        return (true);
+    if (marks >= 90) {
+        printf("Grade: A\n");
+    } else if (marks >= 80) {
+        printf("Grade: B\n");
+    } else if (marks >= 70) {
+        printf("Grade: C\n");
+    } else if (marks >= 60) {
+        printf("Grade: D\n");
+    } else {
+        printf("Grade: F\n");
     }
-    else {
-        return (false);
-    }
+
+    return 0;
 }
