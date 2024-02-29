@@ -1,21 +1,11 @@
 #include <stdio.h>
-
 int main() {
-    int marks;
-    printf("Enter student marks: ");
-    scanf("%d", &marks);
-
-    if (marks >= 90) {
-        printf("Grade: A\n");
-    } else if (marks >= 80) {
-        printf("Grade: B\n");
-    } else if (marks >= 70) {
-        printf("Grade: C\n");
-    } else if (marks >= 60) {
-        printf("Grade: D\n");
-    } else {
-        printf("Grade: F\n");
+    int a[5];
+    int i;
+    for ( i = 0; i < 5; i++)
+    {
+        printf("Enter your mark in the %i subject ", i);
+        scanf("%i", &a[i]);
     }
-
-    return 0;
+    printf("marks in subject 1 is %i", a[0]);
 }
