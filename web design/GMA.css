@@ -1,0 +1,96 @@
+/* start global rules */
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#FF204E;
+    --secondary-color:#00224D;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end global rules */
+
+/* start animatio */
+@keyframes up-and-down {
+    0%, 100%{
+        top: 0;
+    }
+    50%{
+        top: 50px;
+    }
+}
+/* end animation */
+
+/* start header */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo{
+    color: var(--main-color);
+    padding: 10px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+}
+header .links{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+header .links li a{
+    color: black;
+    transition: 0.3s;
+}
+header .links li:hover a{
+    color: blue;
+}
+/* end header */
+
+/* start hero */
+section{
+    position: relative;
+    overflow: hidden;
+}
+.landing::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    height: 100%;
+    width: 100%;
+    background-color: #ECECEC;
+    transform: skewY(-4deg);
+    z-index: -1;
+    transform-origin: top left;
+}
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: calc(100vh - 50px);
+
+}
+section .hero-text{
+
+}
+section .hero-img{
+    width: 500px;
+    animation: up-and-down 5s linear infinite;
+
+}
+
