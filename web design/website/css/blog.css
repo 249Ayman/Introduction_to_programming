@@ -1,0 +1,12 @@
+.blog .container{
+
+}
+.blog .container .blog-author{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.blog .container .blog-author img{
+    width: 200px;
+
+}

@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 :root{
-    --main-color:#FF204E;
-    --secondary-color:#00224D;
+    --main-color: #2196f3;
+    --main-color-alt:#1787e0;
 }
 ul{
     list-style: none;
@@ -102,15 +102,26 @@ section .hero-img{
 }
 .cards .container .title{
     text-align: center;
-    padding: 20px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+
 }
 .cards .container .grid .card{
     padding-left: 10px;
     padding-right: 10px;
-    background: #ddd;
+    background: #f8f8f8;
+    transition: 0.3s;
+}
+.cards .container .grid .card h3{
+    padding-top: 20px;
+    color: var(--main-color-alt);
+}
+.cards .container .grid .card h3 a{
+    color: var(--main-color-alt);
 }
 .cards .container .grid .card:hover{
     cursor: pointer;
+    margin-top: -10px;
 }
 /* end cards */
 
@@ -120,6 +131,8 @@ section .hero-img{
 }
 .new .container h2{
     text-align: center;
+    margin-bottom: 40px;
+    padding-top: 60px;
 }
 .new .container .section{
     display: flex;

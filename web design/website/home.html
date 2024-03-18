@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/home.css">
     <title>Document</title>
 
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a class="logo" href="">GMA</a>
-            <ul class="links">
-                <li><a href="">Information</a></li>
-                <li><a href="">Courses</a></li>
-                <li><a href="./sign.html">sign up</a></li>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">GMA</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="./courses.html" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="./sign.html" class="nav-link">Sign up</a></li>
+            <li class="nav-item"><a href="./info.html" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="./About.html" class="nav-link">About</a></li>
+          </ul>
+        </header>
+      </div>    
     <!-- end header -->
     <!--start landing  -->
     <section class="landing">
         <div class="container">
             <div class="hero-text">
-                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sequi et asperiores exercitationem praesentium omnis quidem similique cumque consectetur consequatur molestiae quisquam eum, hic ut, placeat magni. Alias, voluptates quaerat.</p>
+                <h1>Unlock Your Potential: Explore Our Courses!</h1>
+                <p>Welcome to  <b>Great Minds Academy</b>, where learning knows no bounds. Whether you’re a curious beginner or a seasoned professional, our diverse range of courses awaits you. Dive into cutting-edge technology, master new skills, and ignite your passion. Join our community of learners and embark on a transformative journey. Let’s learn, grow, and thrive together!</p>
             </div>
-            <img class="hero-img" src="./landing-image.png" alt="">
+            <img class="hero-img" src="./imgs/landing-image.png" alt="">
         </div>
     </section>
     <!-- end landing -->
@@ -37,33 +44,35 @@
                 <div class="grid">
                 <div class="card">
                     <img src="" alt="">
-                    <h3>tech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rem consequatur ipsum iure sit consectet</p>
+                    <h3><a href="./video.html">Web Development</a></h3>
+                    <p>Dive into the world of web development! Learn HTML, CSS, JavaScript, and frameworks like React and Angular. Build responsive websites, create dynamic user interfaces, and explore the latest trends in front-end and back-end development.</p>
                 </div>
                 <div class="card">
                     <img src="" alt="">
-                    <h3>tech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rem consequatur ipsum iure sit consectet</p>
+                    <h3>Data Science and Analytics</h3>
+                    <p>Unleash the power of data! Discover statistical analysis, machine learning, and data visualization. From Python to R, explore tools and techniques to extract insights from data and make informed decisions.</p>
                 </div>
                 <div class="card">
                     <img src="" alt="">
-                    <h3>tech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rem consequatur ipsum iure sit consectet</p>
+                    <h3>Digital Marketing</h3>
+                    <p>Master the art of digital marketing! Explore SEO, social media, content creation, and email campaigns. Understand user behavior, optimize conversions, and drive growth for businesses in the digital landscape.</p>
                 </div>
                 <div class="card">
                     <img src="" alt="">
-                    <h3>tech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rem consequatur ipsum iure sit consectet</p>
+                    <h3>Graphic Design and Creativity</h3>
+                    <p>Ignite your creativity! Learn graphic design principles, typography, color theory, and layout. Create stunning visuals using tools like Adobe Photoshop, Illustrator, and InDesign. Express your ideas through captivating designs.
+                    </p>
                 </div>
                 <div class="card">
                     <img src="" alt="">
-                    <h3>tech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rem consequatur ipsum iure sit consectet</p>
+                    <h3>Business and Entrepreneurship</h3>
+                    <p>ecome a savvy entrepreneur! Study business strategy, finance, marketing, and leadership. Whether you’re launching a startup or managing an established company, these courses provide essential skills for success.
+                    </p>
                 </div>
                 <div class="card">
                     <img src="" alt="">
-                    <h3>tech</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia rem consequatur ipsum iure sit consectet</p>
+                    <h3><a href="./video.html">Language and Communication Skills</a></h3>
+                    <p>Enhance your communication prowess! Improve your writing, public speaking, and interpersonal skills. Explore language courses, storytelling techniques, and cross-cultural communication. Unlock your ability to connect and influence.</p>
                 </div>
             </div>
         </div>
@@ -74,16 +83,46 @@
         <div class="container">
             <h2>What's new</h2>
             <div class="section">
-                <img src="./gallery-02.png" alt="">
+                <img src="./imgs/gallery-02.png" alt="">
                 <div class="section-text">
-                    <h4>lorem</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut adipisci hic vitae quia eaque Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, tempore eveniet. Eos nam facere nostrum autem voluptate et perspiciatis soluta dicta sapiente quidem aliquam ratione assumenda voluptatem, sit exercitationem alias.
-                    Consectetur et hic a. Accusamus magni autem soluta hic cumque similique obcaecati corrupti unde ullam provident culpa, praesentium error, necessitatibus perspiciatis optio natus distinctio recusandae. Et ipsum voluptatem quidem rerum.
-                    Asperiores enim unde distinctio, expedita nesciunt delectus voluptate quas ex nisi officiis eligendi doloribus consequatur quam tempore eos dolor sapiente, explicabo harum. Fugit unde odio voluptate nisi illum adipisci vero.</p>
-            </div>
+                    <h4><a href="./news.html">What's next?</a></h4>
+                    <p>Stay ahead of the curve with our latest offerings! Whether you’re a seasoned learner or just starting out, we’ve got something exciting for you. Explore our diverse range of courses and ignite your passion:
+
+                        “Advanced Python Programming”: Take your Python skills to the next level. Dive into decorators, generators, and asynchronous programming. Build robust applications and explore Python’s hidden gems.
+                        
+                        “UX/UI Design Trends 2024”: Discover the latest trends in user experience (UX) and user interface (UI) design. Learn about micro-interactions, dark mode, and inclusive design principles.
+                        
+                        “Blockchain Basics”: Demystify blockchain technology. Understand smart contracts, decentralized applications (DApps), and explore real-world use cases. Get ready for the decentralized future!
+                        
+                        “Content Marketing Mastery”: Elevate your content game. Craft compelling stories, optimize SEO, and create share-worthy blog posts. Learn from industry experts and boost your brand’s visibility.
+                        
+                        “Introduction to Quantum Computing”: Quantum leap into the future! Explore quantum gates, qubits, and quantum algorithms. Get a glimpse of the quantum revolution.
+                        
+                        “Effective Time Management”: Time is your most valuable resource. Learn practical techniques to prioritize tasks, beat procrastination, and achieve work-life balance.
+                        
+                        Keep an eye out for more exciting courses coming your way. Enroll now and stay informed! 🚀</p>
+                </div>
             </div>
         </div>
     </div>
+    <!-- end new -->
+    <!-- start footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-body-secondary">Contact us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+      </footer>
+      <!-- end footer -->
     
 </body>
 </html>

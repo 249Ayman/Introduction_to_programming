@@ -1,0 +1,23 @@
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+.blog-card{
+    background: #f8f8f8;
+    padding: 20px;
+
+}
+.info .container h1{
+    padding-bottom: 30px;
+}
+/* end blog */
+/* start news */
+.news .container{
+    padding-top: 60px;
+}
+.news .container img{
+    width: 200px;
+    float: left;
+    margin: 30px;
+}
