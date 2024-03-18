@@ -78,7 +78,7 @@ section{
     transform-origin: top left;
 }
 
-section .container{
+.landing .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,3 +94,43 @@ section .hero-img{
 
 }
 
+/* start cards */
+.cards .container .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+.cards .container .title{
+    text-align: center;
+    padding: 20px;
+}
+.cards .container .grid .card{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #ddd;
+}
+.cards .container .grid .card:hover{
+    cursor: pointer;
+}
+/* end cards */
+
+/* start new */
+.new .container{
+    padding-top: 40PX;
+}
+.new .container h2{
+    text-align: center;
+}
+.new .container .section{
+    display: flex;
+    gap: 20px;
+}
+.new .container .section img{
+    width: 200px;
+}
+.new .container .section h4{
+
+}
+.new .container .section p{
+
+}
