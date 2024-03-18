@@ -97,8 +97,8 @@ section .hero-img{
 /* start cards */
 .cards .container .grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
 }
 .cards .container .title{
     text-align: center;
