@@ -1,2 +1,10 @@
-.video{
+.video .container .video-box{
+    display: flex;
+    gap: 30px;
+}
+.video .container .video-box .video-text h1{
+    color: #2196f3;
+}
+.video .container .course-text{
+    padding-top: 60px;
 }
